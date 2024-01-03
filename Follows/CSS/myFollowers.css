@@ -1,0 +1,32 @@
+
+/* User info CSS */
+.userinfo
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+/* PostPic CSS */
+.postPic
+{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    padding: 20px;
+}
+/* Username CSS */
+p
+{
+    text-align: center;
+}
