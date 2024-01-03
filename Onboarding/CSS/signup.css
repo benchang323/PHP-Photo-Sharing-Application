@@ -1,0 +1,11 @@
+/* sign-up-box CSS */
+.sign-up-box
+{
+    width: 600px;
+    height: 550px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    padding: 20px;
+}

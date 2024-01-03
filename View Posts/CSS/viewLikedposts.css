@@ -1,0 +1,21 @@
+/* PostPic CSS */
+.postPic
+{
+    width: 700px;
+    height: 850px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+/* Description CSS */
+p
+{
+    text-align: center;
+
+}

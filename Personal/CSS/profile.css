@@ -1,0 +1,27 @@
+/* Information CSS */
+/* Make a box in the middle to display the information */
+.info
+{
+    background-color: black;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Heading CSS */
+p
+{
+    font-size: 20pt;
+    margin: 0px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+img
+{
+    border: 2px solid white;
+}

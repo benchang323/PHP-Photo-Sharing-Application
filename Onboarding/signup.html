@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="../Default/default.css">
+    <link rel="stylesheet" href="CSS/signup.css">
+    <title>Sign Up Page</title>
+</head>
+<body>
+
+<!--Navigation Bar-->
+<ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="login.html">Log In</a></li>
+    <li><a href="signup.html">Sign Up</a></li>
+</ul>
+
+<!--Title-->
+<h1>Sign Up Page</h1>
+
+<!--Log In Form-->
+<form action="Handler/signupHandler.php" method="post" enctype="multipart/form-data" class="sign-up-box">
+    <p>Username <br><input type="text" name="username" class="text-input"></p>
+    <p>Email<br><input type="email" name="email" class="text-input"></p>
+    <p>Password<br><input type="password" name="password" class="text-input"></p>
+    <p>Bio<br><input type="text" name="bio" class="text-input"></p>
+    <p>Profile Picture<br><input type="file" name="profilePicture" class="upload-button"></p>
+    <input type="submit" name="submit" class="button">
+</form>
+
+<h3 style="font-size: 14px; text-align: center;">If the page was reloaded, you did not enter all the required sections or a duplication of username exists</h3>
+
+</body>
+</html>
